@@ -3,7 +3,7 @@ import datetime
 from employee import Employee,Admin, Manager
 #from employee import Admin
 from employee import EmployeesDataBase as edb
-from attendance import AttendancyManagment as attMng
+#from attendance import AttendancyManagment #as attMng
 from menu import Menu
 
 
@@ -39,8 +39,8 @@ emp_to_add_csv = 'employees_to_add.csv'
 #
 #
 #
-# admin1 = Admin('033040064','Dana Medina', '0523263030', 47)
+#admin1 = Admin('033040064','Dana Medina', '0523263030', 47)
 # print(admin1)
-# edb.add_employee_to_file(admin1)
+#edb.add_employee_to_file(admin1)
 #
 Menu.start_menu()

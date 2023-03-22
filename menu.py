@@ -1,7 +1,8 @@
 import datetime
 import employee
 from employee import EmployeesDataBase as edb
-import attendance.AttendancyManagment as am
+#import attendance.AttendancyManagment as am
+from attendance import AttendancyManagment as am
 import helpFuncs as hf
 
 
