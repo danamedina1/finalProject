@@ -57,8 +57,10 @@ emp_to_add_csv = 'employees_to_add.csv'
 #
 #
 #
-admin1 = Admin('033040064','Dana Medina', '0523263030', 47)
-print(admin1)#innocent change in local
+
+# admin1 = Admin('033040064','Dana Medina', '0523263030', 47)
+# print(admin1)#innocent change in local
+
 #edb.add_employee_to_file(admin1)
 #
 Menu.start_menu()

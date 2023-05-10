@@ -92,7 +92,9 @@ class EmployeesDataBase():
     def add_employee_manually(cls):
         #asks the user to enter employye's data and add it to the main employees file:
 
-        print('adding employee: innocent change in local')
+
+        print('adding employee: ')
+
         values = [None, None, None, None, None]
 
         while values[0] == None: values[0] = hf.ask_input_int('ID: ')
